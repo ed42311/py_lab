@@ -30,16 +30,12 @@ It should point to your virtaul env path:  `from/root/to/env/bin/python`
 
 `deactivate`
 
-### XML read/writer
+### Download aviationStack data
 
-Bit of a failed experiment here to bridge a gap in xml files
-Only works for a prices xml file, make sure the names match in the file
+You will need a aviationStack Key
 
-`python3 price_modify.py`
+`python3 airport_reader.py`
 
 ### Upload to 3s
 
-Bit of a failed experiment here to bridge a gap in xml files
-Only works for a prices xml file, make sure the names match in the file
-
-`python3 price_modify.py`
+`python3 upload_to_s3.py`
